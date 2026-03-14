@@ -8,7 +8,7 @@ This project analyzes the LendingClub peer-to-peer lending dataset to build a cr
 
 Key goal: Transforming data to build logistic regression and create a threshold-based policy to minimize losses while optimizing approvals.
 
-What makes this project special is that it tried not to use function available on the library but try to create from scratch such as one hot encoding, or data preprocessing step with WoE Class to put in the logistic regression pipeline
+What makes this project unique: Built credit risk pipeline from scratch—custom one-hot encoding, WOE binning class, and preprocessing steps instead of using library functions. Pure logistic regression with handmade feature engineering for production-ready interpretability.
 
 **Data set**
 - Source: LendingClub loan data (loan_amnt, int_rate, grade, dti, etc.)
