@@ -4,7 +4,7 @@
 
 Although many machine learning techniques deliver strong predictive performance, logistic regression remains the preferred choice in finance and risk management for its computational efficiency and interpretability.
 
-This project analyzes the LendingClub peer-to-peer lending dataset to build a credit risk model predicting loan defaults using logistic regression. It follows a full credit scorecard pipeline: from data cleaning and WOE (Weight of Evidence) binning to model training, prediction, and scorecard generation for interpretable risk scores.
+This project analyzes the LendingClub peer-to-peer lending dataset to build a credit risk model predicting loan defaults using logistic regression. It follows a full credit scorecard pipeline: from data cleaning and WOE (Weight of Evidence) binning to model training, prediction, and scorecard generation.
 
 Key goal: Transforming data to build logistic regression, from logistic regresion result to build scorecard and create a threshold-based policy to minimize losses while optimizing approvals.
 
